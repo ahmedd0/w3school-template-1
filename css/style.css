@@ -1,0 +1,119 @@
+/* -----------------------GLOBAL--------------------- */
+.main-bg {
+    background-color: black;
+}
+
+.main-color {
+    color: black;
+}
+
+.my-container {
+    width: 60%;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+    /* cursor: none; */
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    height: 5000px;
+    line-height: 23px;
+
+}
+
+#pointer {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #dc3546a9;
+    position: fixed;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+}
+
+.head h2 {
+    letter-spacing: 8px;
+}
+
+/* -----------------------GLOBAL----------------------------------- */
+
+/* ------------------ START HEADER ---------------------------------*/
+header {
+    height: 100vh;
+}
+
+header .navbar .navbar-nav .nav-item {
+    text-align: center !important;
+    transition: all 0.3s ease;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link {
+    padding: 10px 20px;
+}
+
+header .navbar .navbar-nav .nav-item:hover {
+    background-color: #ccc !important;
+}
+
+header .navbar .navbar-nav .nav-item:hover .nav-linl {
+    color: black;
+}
+
+header .navbar-nav .dropdown:hover .nav-dropdownmenu {
+    display: block !important;
+
+}
+
+header .navbar .search-icon {
+    cursor: pointer;
+}
+
+.nav-dropdownmenu {
+    margin: 0 !important;
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: 0px 0px 4px #656060e0 !important;
+}
+
+header .carousel {
+    height: 100vh !important;
+}
+
+header .carousel .carousel-item img {
+    object-fit: cover;
+    object-position: center 30px !important;
+}
+
+/* ------------------ END HEADER ---------------------------------*/
+
+/* ------------------ START BAND ---------------------------------*/
+
+
+.band {
+    height: 100vh;
+    background-color: coral;
+}
+
+
+
+.band .band-members .member img {
+    border-radius: 10px;
+
+}
+
+/* ------------------      END BAND   --------------------------------*/
+
+/* -------------------   MEDIA QUERIES  ----------------------------- */
+@media (max-width:760px) {
+    .my-container {
+        width: 80%;
+    }
+
+    header .navbar .navbar-nav .nav-item {
+        text-align: left !important;
+    }
+}
