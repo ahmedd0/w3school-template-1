@@ -25,7 +25,7 @@ body {
 
 }
 
-#pointer {
+/* #pointer {
     height: 16px;
     width: 16px;
     border-radius: 50%;
@@ -33,7 +33,7 @@ body {
     position: fixed;
     z-index: 2;
     transform: translate(-50%, -50%);
-}
+} */
 
 .head h2 {
     letter-spacing: 8px;
@@ -107,7 +107,76 @@ header .carousel .carousel-item img {
 
 /* ------------------      END BAND   --------------------------------*/
 
+
+/* ------------------ START TOUR DATES ---------------------------------*/
+.tourDates {padding: 5rem 0;}
+
+.tourDates h3 {
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+}
+
+.tourDates .tourDates-table,
+.tourDates-cards {
+     width: 70%;
+     margin: 2rem auto 0;
+     text-align: left;
+}
+
+.tourDates .tourDates-table td {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tourDates .tourDates-table .tickets-sold {
+    background-color: #f44336;
+    color: #fff;
+    padding: 2px 5px;
+    margin-left: 15px;
+}
+
+.tourDates .tourDates-table .tickets-available {
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    padding: 3px 8px;
+}
+
+.tourDates .tourDates-cards .col-md-4 {padding: 0 7px !important;}
+
+.tourDates .tourDates-cards .card {
+    border: none !important;
+    border-radius: 0 !important;
+}
+.tourDates .tourDates-cards .card-overlay {
+    display: none;
+    background-color: #0000006c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.tourDates .tourDates-cards .card-img:hover .card-overlay {display: block;}
+
+.tourDates .tourDates-cards .btn {
+    background-color: #000;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.tourDates .tourDates-cards .btn:hover {
+    background-color: #ddd !important;
+    color: #000 !important;
+}
+/* ------------------ End TOUR DATES ---------------------------------*/
+
+
 /* -------------------   MEDIA QUERIES  ----------------------------- */
+/* ----- Small Screen ----- */
 @media (max-width:760px) {
     .my-container {
         width: 80%;
@@ -116,4 +185,19 @@ header .carousel .carousel-item img {
     header .navbar .navbar-nav .nav-item {
         text-align: left !important;
     }
+
+    /* ----- START TOUR DATES ----- */ 
+    .tourDates .tourDates-cards .card {
+        margin-bottom: 2rem;
+    }
+    /* ----- End TOUR DATES ----- */ 
+}
+
+/* ----- Medium Screen ----- */
+@media(max-width: 991px) {
+
+    /* ----- START TOUR DATES ----- */ 
+    .tourDates .tourDates-table,
+    .tourDates-cards {width: 100%;}
+    /* ----- End TOUR DATES ----- */
 }
