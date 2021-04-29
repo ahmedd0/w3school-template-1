@@ -109,7 +109,9 @@ header .carousel .carousel-item img {
 
 
 /* ------------------ START TOUR DATES ---------------------------------*/
-.tourDates {padding: 5rem 0;}
+.tourDates {
+    padding: 5rem 0;
+}
 
 .tourDates h3 {
     letter-spacing: 4px;
@@ -118,9 +120,9 @@ header .carousel .carousel-item img {
 
 .tourDates .tourDates-table,
 .tourDates-cards {
-     width: 70%;
-     margin: 2rem auto 0;
-     text-align: left;
+    width: 70%;
+    margin: 2rem auto 0;
+    text-align: left;
 }
 
 .tourDates .tourDates-table td {
@@ -144,12 +146,15 @@ header .carousel .carousel-item img {
     padding: 3px 8px;
 }
 
-.tourDates .tourDates-cards .col-md-4 {padding: 0 7px !important;}
+.tourDates .tourDates-cards .col-md-4 {
+    padding: 0 7px !important;
+}
 
 .tourDates .tourDates-cards .card {
     border: none !important;
     border-radius: 0 !important;
 }
+
 .tourDates .tourDates-cards .card-overlay {
     display: none;
     background-color: #0000006c;
@@ -160,7 +165,9 @@ header .carousel .carousel-item img {
     bottom: 0;
 }
 
-.tourDates .tourDates-cards .card-img:hover .card-overlay {display: block;}
+.tourDates .tourDates-cards .card-img:hover .card-overlay {
+    display: block;
+}
 
 .tourDates .tourDates-cards .btn {
     background-color: #000;
@@ -172,6 +179,7 @@ header .carousel .carousel-item img {
     background-color: #ddd !important;
     color: #000 !important;
 }
+
 /* ------------------ End TOUR DATES ---------------------------------*/
 
 
@@ -186,51 +194,62 @@ header .carousel .carousel-item img {
         text-align: left !important;
     }
 
-    /* ----- START TOUR DATES ----- */ 
+    /* ----- START TOUR DATES ----- */
     .tourDates .tourDates-cards .card {
         margin-bottom: 2rem;
     }
-    /* ----- End TOUR DATES ----- */ 
+
+    /* ----- End TOUR DATES ----- */
 }
 
 /* ----- Medium Screen ----- */
 @media(max-width: 991px) {
 
-    /* ----- START TOUR DATES ----- */ 
+    /* ----- START TOUR DATES ----- */
     .tourDates .tourDates-table,
-    .tourDates-cards {width: 100%;}
+    .tourDates-cards {
+        width: 100%;
+    }
+
     /* ----- End TOUR DATES ----- */
 }
 
 /*start footer style*/
-img {
+.img-section img {
     width: 100%;
     margin-top: 70px;
-    margin-bottom:20px ;
+    margin-bottom: 20px;
 }
-.footer{
+
+.footer {
     text-align: center;
     margin-top: 20px;
 }
-.footer i{
+
+.footer i {
     text-align: center;
     color: rgb(128, 125, 125);
-   font-size: 16px;
-   margin-bottom: 16px;
-   
+    font-size: 16px;
+    margin-bottom: 16px;
+
 }
-.w3-medium{
+
+.w3-medium {
     color: rgb(128, 125, 125);
     font-size: 12px;
 
 }
+
 footer a {
     color: rgb(128, 125, 125);
 }
-.footer i:hover{
+
+.footer i:hover {
     color: wheat;
 }
-a:hover{
+
+a:hover {
     color: wheat;
 }
+
 /*end footer style*/
