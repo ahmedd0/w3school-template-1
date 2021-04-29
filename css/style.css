@@ -201,3 +201,31 @@ header .carousel .carousel-item img {
     .tourDates-cards {width: 100%;}
     /* ----- End TOUR DATES ----- */
 }
+
+/*start footer style*/
+.footer{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer i{
+    text-align: center;
+    color: rgb(128, 125, 125);
+   font-size: 16px;
+   margin-bottom: 16px;
+   
+}
+.w3-medium{
+    color: rgb(128, 125, 125);
+    font-size: 12px;
+
+}
+footer a {
+    color: rgb(128, 125, 125);
+}
+.footer i:hover{
+    color: wheat;
+}
+a:hover{
+    color: wheat;
+}
+/*end footer style*/
