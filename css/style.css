@@ -203,6 +203,11 @@ header .carousel .carousel-item img {
 }
 
 /*start footer style*/
+img {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom:20px ;
+}
 .footer{
     text-align: center;
     margin-top: 20px;
