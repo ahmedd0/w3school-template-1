@@ -11,8 +11,6 @@
     width: 60%;
 }
 
-
-
 html {
     scroll-behavior: smooth;
     /* cursor: none; */
@@ -20,9 +18,7 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
-    height: 5000px;
     line-height: 23px;
-
 }
 
 /* #pointer {
@@ -38,7 +34,6 @@ body {
 .head h2 {
     letter-spacing: 8px;
 }
-
 /* -----------------------GLOBAL----------------------------------- */
 
 /* ------------------ START HEADER ---------------------------------*/
@@ -87,27 +82,17 @@ header .carousel .carousel-item img {
     object-fit: cover;
     object-position: center 30px !important;
 }
-
 /* ------------------ END HEADER ---------------------------------*/
 
 /* ------------------ START BAND ---------------------------------*/
 
 
-<<<<<<< HEAD
-=======
-.band {
-    /* height: 100vh;   */
-}
 
-
->>>>>>> 8581b760a6863bf75a983f75a8ef52d3800c6291
-
-
-/* ------------------      END BAND   --------------------------------*/
+/* ------------------  END BAND  --------------------------------*/
 
 
 /* ------------------ START TOUR DATES ---------------------------------*/
-.tourDates {
+.tourDates  {
     padding: 5rem 0;
 }
 
@@ -178,7 +163,57 @@ header .carousel .carousel-item img {
     color: #000 !important;
 }
 
-/* ------------------ End TOUR DATES ---------------------------------*/
+/* ------------------ END TOUR DATES ---------------------------------*/
+
+/*--------------- START CONTACT -----------------------*/
+#contact .contact-content {width: 70%;}
+
+#message{
+    margin-top: 10px;
+    padding-right: 200px;
+}
+/*--------------- END CONTACT-----------------------*/
+
+
+/* ------------------- START FOOTER ------------------- */
+.img-section img {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer i {
+    text-align: center;
+    color: rgb(128, 125, 125);
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin-left: 5px;
+
+}
+
+.w3-medium {
+    color: rgb(128, 125, 125);
+    font-size: 12px;
+
+}
+
+footer a {
+    color: rgb(128, 125, 125);
+}
+
+.footer i:hover {
+    color: wheat;
+}
+
+a:hover {
+    color: wheat;
+}
+/* -------------------  END FOOTER ------------------- */
 
 
 /* -------------------   MEDIA QUERIES  ----------------------------- */
@@ -200,65 +235,18 @@ header .carousel .carousel-item img {
     /* ----- End TOUR DATES ----- */
 }
 
+
 /* ----- Medium Screen ----- */
 @media(max-width: 991px) {
 
     /* ----- START TOUR DATES ----- */
     .tourDates .tourDates-table,
-    .tourDates-cards {
-        width: 100%;
+    .tourDates-cards,
+    #contact .contact-content,
+    .band-info,
+    .band-imgs {
+        width: 100% !important;
     }
 
     /* ----- End TOUR DATES ----- */
 }
-/*---------------contact-----------------------*/
-
-#message{
-    margin-top: 10px;
-    padding-right: 200px;
-}
-/*---------------contact-----------------------*/
-
-
-
-
-
-/*start footer style*/
-.img-section img {
-    width: 100%;
-    margin-top: 70px;
-    margin-bottom: 20px;
-}
-
-.footer {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.footer i {
-    text-align: center;
-    color: rgb(128, 125, 125);
-    font-size: 16px;
-    margin-bottom: 16px;
-
-}
-
-.w3-medium {
-    color: rgb(128, 125, 125);
-    font-size: 12px;
-
-}
-
-footer a {
-    color: rgb(128, 125, 125);
-}
-
-.footer i:hover {
-    color: wheat;
-}
-
-a:hover {
-    color: wheat;
-}
-
-/*end footer style*/
